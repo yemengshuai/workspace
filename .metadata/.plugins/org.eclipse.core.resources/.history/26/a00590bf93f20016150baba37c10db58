@@ -19,11 +19,11 @@
   </servlet-mapping>
   
   <servlet>
-  <servlet-name>Back Session</servlet-name>
+  <servlet-name>BackSessiom</servlet-name>
   <servlet-class>com.example.demo.TestSession</servlet-class>
   </servlet>
   <servlet-mapping>
-  <servlet-name>Back Session</servlet-name>
-  <url-pattern>/TestSession.do</url-pattern>
+  <servlet-name>BackSession</servlet-name>
+  <url-pattern>/Back.do</url-pattern>
   </servlet-mapping>
 </web-app>

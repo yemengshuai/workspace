@@ -19,7 +19,7 @@
   </servlet-mapping>
   
   <servlet>
-  <servlet-name>Back Session</servlet-name>
+  <servlet-name>Back Sessiom</servlet-name>
   <servlet-class>com.example.demo.TestSession</servlet-class>
   </servlet>
   <servlet-mapping>

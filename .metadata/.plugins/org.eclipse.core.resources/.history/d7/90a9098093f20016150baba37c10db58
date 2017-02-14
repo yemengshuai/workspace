@@ -18,12 +18,4 @@
   <url-pattern>/SelectBeer.do</url-pattern>
   </servlet-mapping>
   
-  <servlet>
-  <servlet-name>Back Session</servlet-name>
-  <servlet-class>com.example.demo.TestSession</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  <servlet-name>Back Session</servlet-name>
-  <url-pattern>/TestSession.do</url-pattern>
-  </servlet-mapping>
 </web-app>

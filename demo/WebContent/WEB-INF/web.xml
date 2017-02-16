@@ -26,4 +26,13 @@
   <servlet-name>Back Session</servlet-name>
   <url-pattern>/TestSession.do</url-pattern>
   </servlet-mapping>
+  <servlet>
+  <servlet-name>false Session</servlet-name>
+  <servlet-class>com.example.demo.falseSession</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>false Session</servlet-name>
+  <url-pattern>/FalseSession.do</url-pattern>
+  </servlet-mapping>
 </web-app>

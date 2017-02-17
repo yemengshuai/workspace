@@ -35,4 +35,36 @@
   <servlet-name>false Session</servlet-name>
   <url-pattern>/FalseSession.do</url-pattern>
   </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>Session Attribute</servlet-name>
+  <servlet-class>com.example.demo.SessionAttribute</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Session Attribute</servlet-name>
+  <url-pattern>/SessionAttr.do</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>Cookie Test</servlet-name>
+  <servlet-class>com.example.demo.CookieTest</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Cookie Test</servlet-name>
+  <url-pattern>/cookieTest.do</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>Cookie Check</servlet-name>
+  <servlet-class>com.example.demo.CheckCookie</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Cookie Check</servlet-name>
+  <url-pattern>/checkcookie.do</url-pattern>
+  </servlet-mapping>
 </web-app>

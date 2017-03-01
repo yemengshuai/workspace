@@ -14,7 +14,9 @@ public class CookieTest extends HttpServlet {
 	public void doGet(HttpServletRequest request,HttpServletResponse response)
 	throws IOException,ServletException{
 		response.setContentType("text/html");
-		String name = request.getParameter("username");
+		//String name = request.getParameter("username");
+		
+		String name ="yemengshuai";
 		Cookie cookie =new Cookie("username", name);
 		cookie.setMaxAge(30*60);
 		

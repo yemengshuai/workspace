@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
 <typeInfo handle="=demo/D:\/apache-tomcat-9.0.0.M13\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1478178032000"/>
+<typeInfo handle="=demo/D:\/apache-tomcat-9.0.0.M13\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpSessionBindingListener.class[HttpSessionBindingListener" modifiers="1537" timestamp="1478178032000"/>
+<typeInfo handle="=demo/D:\/apache-tomcat-9.0.0.M13\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpSessionActivationListener.class[HttpSessionActivationListener" modifiers="1537" timestamp="1478178032000"/>
 </typeInfoHistroy>

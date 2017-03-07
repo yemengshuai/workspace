@@ -67,4 +67,10 @@
   <servlet-name>Cookie Check</servlet-name>
   <url-pattern>/checkcookie.do</url-pattern>
   </servlet-mapping>
+  
+  <listener>
+  <listener-class>
+  	com.example.model.BeerSeesionCounter
+  </listener-class>
+  </listener>
 </web-app>

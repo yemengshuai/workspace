@@ -73,4 +73,10 @@
   	com.example.model.BeerSeesionCounter
   </listener-class>
   </listener>
+  
+   <listener>
+  <listener-class>
+  	com.example.listener.BeerAttributeListener
+  </listener-class>
+  </listener>
 </web-app>

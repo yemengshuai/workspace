@@ -1,0 +1,7 @@
+package com.example.listener;
+
+import javax.servlet.http.HttpSessionActivationListener;
+
+public class BeerAttributeListener implements HttpSessionActivationListener {
+
+}

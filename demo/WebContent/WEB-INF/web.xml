@@ -79,4 +79,18 @@
   	com.example.listener.BeerAttributeListener
   </listener-class>
   </listener>
+  
+  <servlet>
+  	<servlet-name>Hooby</servlet-name>
+  	<jsp-file>/Hobby.jsp</jsp-file>
+  	<init-param>
+  	<param-name>email</param-name>
+  	<param-value>yemengshuai@qq.com</param-value>
+  	</init-param>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Hooby</servlet-name>
+  <url-pattern>/HobbyPage.do</url-pattern>
+  </servlet-mapping>
 </web-app>

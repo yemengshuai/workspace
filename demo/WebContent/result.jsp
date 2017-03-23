@@ -14,13 +14,7 @@
 
 <p>
 
-<%
-	List style = (List)request.getAttribute("styles");
-	Iterator it = style.iterator();
-	while(it.hasNext()){
-		out.print("<br>try:"+it.next());
-	}
-%>
+<%= request.getParameter("name") %>
 
 </body>
 </html>

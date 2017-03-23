@@ -1,7 +1,0 @@
-package com.example.model;
-
-import javax.servlet.http.HttpSessionListener;
-
-public class BeerSeesionCounter implements HttpSessionListener {
-
-}
